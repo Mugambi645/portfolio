@@ -1,8 +1,8 @@
 # React Portfolio
 
-> This is my personal portfolio built with react.js.
+> This is my personal portfolio.
+> Built with react 
 > 
->
 
 ## Build Setup
 
