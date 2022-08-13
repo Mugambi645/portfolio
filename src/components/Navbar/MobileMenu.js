@@ -29,11 +29,9 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="about" onClick={toggle}>
           About
         </MobileMenuLink>
-        <MobileMenuLink to="playground" onClick={toggle}>
-          Playground
-        </MobileMenuLink>
+  
         <MobileButton
-          href="mailto:jerichobantiquete@gmail.com "
+          href="mailto:mugambi645@gmail.com "
           target="_blank"
           rel="noreferrer"
         >
@@ -48,36 +46,36 @@ const MobileMenu = ({ isOpen, toggle }) => {
               >
                 <path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" />
               </svg>
-              get in touch
+              Get in touch
             </span>
           </span>
         </MobileButton>
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:mugambi645@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gm
+          
         </MobileSocial>
         <MobileSocial
-          href="https://github.com/monciego"
+          href="https://github.com/mugambi645"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gh
+          
         </MobileSocial>
 
         <MobileSocial
-          href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+          href="https://www.linkedin.com/in/patrick-mugambi-172b171a0/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ln
+          
         </MobileSocial>
       </MobileSocials>
-      <MobileQuote>travaille pour ça</MobileQuote>
+      <MobileQuote></MobileQuote>
     </MobileMenuContainer>
   );
 };
