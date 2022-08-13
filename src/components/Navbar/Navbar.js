@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
       <div>
-        <NavLogo to="/" onClick={toTop} src={logo} alt="logo" style={{backgroundColor:"white", width: "10", height:"10"}}  />
+        <NavLogo to="https://github.com/Mugambi645" onClick={toTop} src={logo} alt="logo" style={{backgroundColor:"white", width: "10", height:"10"}}  />
       </div>
       <NavMenuList>
         <NavList>
